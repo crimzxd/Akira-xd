@@ -2,7 +2,7 @@ from PIL import Image
 from logging import getLogger, FileHandler, StreamHandler, INFO, basicConfig, error as log_error, info as log_info, warning as log_warning
 from socket import setdefaulttimeout
 from urllib.request import urlretrieve
-from telegram.ext import Updater as tgUpdater, Defaults
+from telegram.ext import Updater as tgUpdater
 from faulthandler import enable as faulthandler_enable
 from qbittorrentapi import Client as qbClient
 from aria2p import API as ariaAPI, Client as ariaClient
